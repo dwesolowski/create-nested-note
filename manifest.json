@@ -1,0 +1,9 @@
+{
+  "id": "create-nested-note",
+  "name": "Create Nested Note",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Create a folder and a same-named note from the file explorer context menu.",
+  "author": "Daren Wesolowski",
+  "isDesktopOnly": false
+}

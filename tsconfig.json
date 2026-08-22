@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "target": "ES6",
+    "types": ["node"]
+  },
+  "include": ["main.ts"]
+}

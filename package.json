@@ -1,0 +1,29 @@
+{
+  "name": "create-nested-note",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Create a folder and a same-named note from the Obsidian file explorer context menu.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node scripts/clean.mjs && tsc --noEmit --skipLibCheck && node esbuild.config.mjs production && node scripts/package.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "lint": "eslint .",
+    "package": "npm run build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.25.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-obsidianmd": "^0.4.0",
+    "globals": "^17.6.0",
+    "jiti": "^2.6.1",
+    "obsidian": "^1.8.7",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.59.1"
+  }
+}

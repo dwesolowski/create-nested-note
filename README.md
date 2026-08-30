@@ -75,7 +75,7 @@ Available scripts:
 | `npm run package` | Alias for the complete production build. |
 | `npm run deploy -- "<plugin-directory>"` | Copy an existing package into a local vault. |
 
-Production files are staged in `dist/create-nested-note/`.
+Production files are staged in `dist/`.
 
 The included VS Code tasks provide **Build production package** and **Deploy to working vault** commands. The deploy task builds first and then updates the working vault installation.
 

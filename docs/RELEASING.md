@@ -25,7 +25,7 @@ Before the initial publication:
 
 1. Create a Git tag that exactly matches `manifest.json`, such as `1.0.0`. Do not prefix the tag with `v`.
 2. Create a GitHub release from that tag.
-3. Upload these files individually from `dist/create-nested-note/`:
+3. Upload these files individually from `dist/`:
 
    ```text
    main.js

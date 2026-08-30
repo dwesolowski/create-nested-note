@@ -8,7 +8,6 @@ const pluginDirectory = path.dirname(fileURLToPath(import.meta.url));
 const outputDirectory = path.join(
   pluginDirectory,
   "dist",
-  "create-nested-note",
 );
 
 const context = await esbuild.context({

@@ -9,11 +9,7 @@ if (!targetArgument) {
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const pluginDirectory = path.resolve(scriptDirectory, "..");
-const packageDirectory = path.join(
-  pluginDirectory,
-  "dist",
-  "create-nested-note",
-);
+const packageDirectory = path.join(pluginDirectory, "dist");
 const targetDirectory = path.resolve(targetArgument);
 const targetParent = path.dirname(targetDirectory);
 

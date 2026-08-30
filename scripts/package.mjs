@@ -5,12 +5,12 @@ import { fileURLToPath } from "node:url";
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const pluginDirectory = path.resolve(scriptDirectory, "..");
 const distDirectory = path.join(pluginDirectory, "dist");
-const packageDirectory = path.join(distDirectory, "create-nested-note");
+const packageDirectory = distDirectory;
 const packageFiles = ["manifest.json", "styles.css"];
 const compiledPlugin = path.join(packageDirectory, "main.js");
 
-if (path.dirname(packageDirectory) !== distDirectory) {
-  throw new Error("Refusing to package outside the plugin dist directory.");
+if (path.basename(packageDirectory) !== "dist") {
+  throw new Error("Refusing to package outside the dist directory.");
 }
 
 await mkdir(packageDirectory, { recursive: true });

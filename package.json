@@ -1,6 +1,6 @@
 {
   "name": "create-nested-note",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Create a folder and a same-named note from the Obsidian file explorer context menu.",
   "license": "MIT",

@@ -79,6 +79,10 @@ Production files are staged in `dist/create-nested-note/`.
 
 The included VS Code tasks provide **Build production package** and **Deploy to working vault** commands. The deploy task builds first and then updates the working vault installation.
 
+## Testing
+
+This project is tested with BrowserStack.
+
 ## Project structure
 
 ```text
